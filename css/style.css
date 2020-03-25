@@ -356,25 +356,57 @@ p {
 }
 
 /*MAP*/
-.section__map {
+.section__table {
 	margin-top: 65px;
 	background-color: #3E54D2;
 }
 
-.map__title {
+.table__title {
 	padding: 45px 0;
 	text-align: center;
 	font-size: 55px;
 	text-transform: uppercase;
 }
-.map__frame {
-	padding-bottom: 45px;
+
+.table__suptitle {
+	text-align: center;
+	font-size: 45px;
+	margin-bottom: 25px;
+}
+.table__container {
+	
+    padding-bottom: 25px;
 	text-align: center;
 }
-.map__change {
-	max-width: 100%;
-	max-height: 100%;
+.country__info {
+	border-top: 1px solid #ffffff30;
+    padding: 20px;
+    border-bottom: 1px solid #ffffff30;
 }
+.country__name {
+   font-size: 30px;
+   font-weight: 500;
+}
+.table {
+	background: url(../img/icon/world-map-vector.svg) center no-repeat;
+}
+.cases,
+.death,
+.recovered {
+	padding: 5px 0;
+	font-size: 20px;
+}
+
+/*.map__frame {*/
+	/*padding-bottom: 45px;*/
+	/*text-align: center;*/
+/*}*/
+/*.map__change {*/
+	/*max-width: 100%;*/
+	/*max-height: 100%;*/
+/*}*/
+
+/*FOOTER*/
 
 .footer__inner {
 	margin: 45px 0;
