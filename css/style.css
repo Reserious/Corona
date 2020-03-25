@@ -178,9 +178,9 @@ p {
     
 
 }
-.live__col-1,
-.live__col-2,
-.live__col-3,
+.live__cases,
+.live__deaths,
+.live__recovered,
 .live__col-4 {
 	/*flex-basis: 25%;*/
 	margin-top: 15px;
@@ -190,13 +190,13 @@ p {
     transition: box-shadow 0.2s linear;
 }
 
-.live__col-1:hover,
-.live__col-2:hover,
-.live__col-3:hover,
+.live__cases:hover,
+.live__deaths:hover,
+.live__recovered:hover,
 .live__col-4:hover {
   box-shadow: 0 0 25px rgba(49, 42, 44);
 }
-.live__col-1 {
+.live__cases {
   z-index: 5;
   width: 240px;
   height: 180px;
@@ -206,7 +206,7 @@ p {
   box-shadow: 0 0 25px rgba(43, 42, 44, 0.25);
   
 }
-.live__col-2 {
+.live__deaths {
   z-index: 5;
   width: 240px;
   height: 180px;
@@ -217,7 +217,7 @@ p {
   
 }
 
-.live__col-3 {
+.live__recovered {
   z-index: 5;
   width: 240px;
   height: 180px;
@@ -374,9 +374,14 @@ p {
 	margin-bottom: 25px;
 }
 .table__container {
-	
+	width: 100%;
     padding-bottom: 25px;
 	text-align: center;
+}
+
+.table__container td {
+	border: 1px solid #fff;
+	padding: 10px;
 }
 .country__info {
 	border-top: 1px solid #ffffff30;
@@ -442,9 +447,9 @@ p {
     .row_2 {
     margin-left: 15px; }
 
-    .live__col-1, 
-    .live__col-2, 
-    .live__col-3, 
+    .live__cases, 
+    .live__deaths, 
+    .live__recovered, 
     .live__col-4 { 
     margin-left: 0;
     flex-basis: 45%; }
@@ -550,9 +555,9 @@ p {
  .oval__link {
  	margin-top: 15px;
  }
- .live__col-1,
- .live__col-2,
- .live__col-3,
+ .live__cases,
+ .live__deaths,
+ .live__recovered,
  .live__col-4 {
  	flex-basis: 100%;
  }
