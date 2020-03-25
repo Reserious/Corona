@@ -380,6 +380,7 @@ p {
 	margin: 45px 0;
 }
 .footer__copyright {
+	align-items: center;
 	display: flex;
 	justify-content: space-between;
 }
@@ -456,4 +457,171 @@ p {
 	.row_2 {
 		margin-left: 60px;
 	}
+}
+
+@media (max-width:550px) {
+     .row_2 {
+     	margin-left: 0;
+     }
+     .live__text {
+     	display: none;
+     }
+     .btn {
+     	width: 150px;
+     	height: 75px;
+     }
+     .symptoms__title {
+     	font-size: 40px;
+     }
+     .are__you__title {
+     	font-size: 50px;
+     }
+     .no__panic {
+     	margin-top: 45px;
+     }
+     .map__title {
+     	font-size: 40px;
+     }
+
+}
+
+@media (max-width:450px) {
+	.intro__title {
+		font-size: 85px;
+	}
+	.oval {
+		width: auto;
+		height: auto;
+		border: none;
+		background: transparent;
+	}
+
+	.oval__img {
+	position: relative;
+    z-index: 7;
+    width: 350.03px;
+    height: 350.03px;
+    top: 0;
+    left: 35px;
+    right: 0;
+    bottom: 0;
+}
+	
+ .oval__text {
+ 	float: left;
+ 	transform: rotate(0);
+ 	top: 32px;
+ 	right: 0;
+ 	left: 0;
+ 	font-size: 30px;
+ }	
+ .oval__link {
+ 	margin-top: 15px;
+ }
+ .live__col-1,
+ .live__col-2,
+ .live__col-3,
+ .live__col-4 {
+ 	flex-basis: 100%;
+ }
+ .safe-col__icon {
+    padding: 0px;
+}
+.safe__title {
+	font-size: 55px;
+}
+.safe__col {
+	padding-bottom: 40px;
+}
+.safe__col-1 {
+	width: 50%;
+}
+
+.symptoms__col-1 {
+	flex-wrap: wrap;
+	justify-content: center;	
+}
+.symptoms__title {
+	text-align: center;
+}
+.btn {
+	margin: 10px;
+}
+.are__you__title {
+	text-align: center;
+}
+.no__panic {
+	margin-top: 30px;
+	line-height: 1.5;
+}
+.map__title {
+	font-size: 35px;
+}
+.container {
+	padding: 0 10px;
+}
+}
+
+@media (max-width:375px) {
+	.intro__title {
+		font-size: 70px;
+
+	}
+	.oval {
+		width: auto;
+		height: auto;
+
+	}
+	.oval__img {
+
+    
+    width: 325.03px;
+    height: 325.03px;
+    top: 0;
+    left: 15px;
+    right: 0;
+    bottom: 0;
+	}
+	.oval__text {
+		top: 0;
+	}
+	.oval__link {
+		margin-top: 0;
+		padding: 15px 0;
+	}
+	.live__update {
+		margin: 40px 0;
+	}
+	.safe__col-1 {
+		width: 100%;
+	}
+   .safe__title {
+   	font-size: 50px;
+   }
+
+   .are__you__title {
+   	font-size: 40px;
+   }
+}
+@media (max-width:320px) {
+	.intro__title {
+		font-size: 65px;
+	}
+	.oval__img {
+		width: 300px;
+		height: 300px;
+		top: 0;
+		left: 0	;
+		right: 0;
+		bottom: 0;
+	}
+	.btn {
+		width: 100%;
+	}
+	.symptoms__col-1 {
+		margin-top: 20px;
+	}
+   .symptoms__img {
+   	margin:0;
+   }
 }
