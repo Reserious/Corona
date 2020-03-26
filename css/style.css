@@ -379,11 +379,14 @@ p {
     padding-bottom: 25px;
 	text-align: center;
 }
+<<<<<<< HEAD
 .table__scroll {
 	overflow: scroll;
 	height: 450px;
 	width: 100%;
 }
+=======
+>>>>>>> 583208d3f2ec77cdf1b5a00b271688ace012280c
 
 .table__container td {
 	border: 1px solid #fff;
