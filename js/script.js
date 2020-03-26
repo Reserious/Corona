@@ -34,23 +34,3 @@ $(function ($) {
 
     //ssh -i reser.pem ubuntu@ec2-184-72-207-116.compute-1.amazonaws.com 
 });
-<<<<<<< HEAD
-
-   /*Scroll*/
-    
-    $("[data-scroll]").on("click",function(event) {
-        event.preventDefault();
-        
-        var $this = $(this),
-        blockId = $this.data('scroll'),
-             blockOffset = $(blockId).offset().top;
-             
-        $("#nav a").removeClass("active");
-        $this.addClass("active");
-        
-        $("html,body").animate({
-            scrollTop:blockOffset
-        },600);
-    });
-=======
->>>>>>> 583208d3f2ec77cdf1b5a00b271688ace012280c

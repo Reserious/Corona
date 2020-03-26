@@ -79,7 +79,7 @@ p {
 
 }
 .row_1 {
-	margin-top: 0;
+	margin-top: 40px;
 }
 .intro__suptitle {
 	font-size: 20px;
@@ -112,16 +112,15 @@ p {
 }
 
 .row_2 {
-	
-	margin-top: 90px;
-	margin-left: 100px;
-	
+	margin-left: 60px;
+	/*width: 578px;*/
+	/*height: 578px;*/
 }
 .oval {
 
   z-index: 5;
-  width: 460px;
-  height: 460px;
+  width: 500px;
+  height: 500px;
   border-radius: 50%;
   border: solid 1px #7e92fb;
   background: linear-gradient(0deg, #5268E7, #3E54D2);
@@ -129,10 +128,10 @@ p {
 .oval__img {
   position: relative;
   z-index: 7;
-  width: 350.03px;
-  height: 350.03px;
-  top: 55px;
-  left: 55px;
+  width: 390.03px;
+  height: 390.03px;
+  top: 64px;
+  left: 64px;
   right: 100px;
   bottom: 100px;
  
@@ -143,9 +142,9 @@ p {
 	transform: rotate(90.00001deg);
 	position: relative;
 	top: -150px;
-	left: 40px;
+	left: 45px;
 	z-index: 5;
-	font-size: 30px;
+	font-size: 34px;
 	text-transform: uppercase;
 }
 .oval__text span {
@@ -186,7 +185,7 @@ p {
 	/*flex-basis: 25%;*/
 	margin-top: 15px;
 	padding: 22px;
-	/*margin-left: 15px;*/
+	margin-left: 15px;
 	box-shadow: 0px 8px 25px #fffbfb3d;
     transition: box-shadow 0.2s linear;
 }
@@ -199,7 +198,7 @@ p {
 }
 .live__cases {
   z-index: 5;
-  width: 30%;
+  width: 240px;
   height: 180px;
   border-radius: 12px;
   border: solid 5px rgba(255,255,255,0.28);
@@ -209,7 +208,7 @@ p {
 }
 .live__deaths {
   z-index: 5;
-  width: 30%;
+  width: 240px;
   height: 180px;
   border-radius: 12px;
   border: solid 5px rgba(255,255,255,0.28);
@@ -220,7 +219,7 @@ p {
 
 .live__recovered {
   z-index: 5;
-  width: 30%;
+  width: 240px;
   height: 180px;
   border-radius: 12px;
   border: solid 5px rgba(255,255,255,0.28);
@@ -356,7 +355,7 @@ p {
     line-height: 2;
 }
 
-/*TABLE*/
+/*MAP*/
 .section__table {
 	margin-top: 65px;
 	background-color: #3E54D2;
@@ -379,14 +378,6 @@ p {
     padding-bottom: 25px;
 	text-align: center;
 }
-<<<<<<< HEAD
-.table__scroll {
-	overflow: scroll;
-	height: 450px;
-	width: 100%;
-}
-=======
->>>>>>> 583208d3f2ec77cdf1b5a00b271688ace012280c
 
 .table__container td {
 	border: 1px solid #fff;
@@ -402,7 +393,7 @@ p {
    font-weight: 500;
 }
 .table {
-	background: url(../img/icon/world-map-vector.svg) center ;
+	background: url(../img/icon/world-map-vector.svg) center no-repeat;
 }
 .cases,
 .death,
@@ -463,10 +454,6 @@ p {
     margin-left: 0;
     flex-basis: 45%; }
 
-    .live__update {
-    	justify-content: space-around;
-    }
-
     .map__title {
     	font-size: 50px;
     }
@@ -480,7 +467,6 @@ p {
    	padding:0 20px;
    }
    .row_2 {
-   	margin-top: 0;
    	width: 100%;
    	margin-left: 190px;
    }
@@ -508,16 +494,6 @@ p {
 	.row_2 {
 		margin-left: 60px;
 	}
-}
-
-@media (max-width:600px) {
-
-	.safe__col {
-		justify-content: space-around;
-	}
-    .safe__col-1 {
-    	width: 40%;
-    }
 }
 
 @media (max-width:550px) {
