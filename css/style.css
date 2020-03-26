@@ -386,6 +386,7 @@ p {
 }
 
 .table__container td {
+	background: #ffffff24;
 	border: 1px solid #fff;
 	padding: 10px;
 }
