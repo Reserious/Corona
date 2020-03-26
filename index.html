@@ -13,8 +13,14 @@
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"></script>
 
+<<<<<<< HEAD
 <script src="js/jquery.dynatable.js"></script>
 <script src="js/script.js"></script>
+=======
+        <script src="js/script.js"></script>
+
+
+>>>>>>> b566518291416b4e802851f09348f389b5982480
 
 <head>
     <title>COVID-19</title>
@@ -22,7 +28,7 @@
 <body>
 <div class="container">
     <!-- header -->
-    <header class="header">
+    <header class="header" id="intro">
         <div class="header__inner">
             <div class="header__title">
                 <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html"
@@ -32,7 +38,7 @@
     </header>
 </div>
 
-<div class="intro">
+<div class="intro" >
     <div class="container">
         <div class="intro__row">
             <div class="row_1">
@@ -68,6 +74,72 @@
         <div class="live__update"></div>
     </div>
 </div>
+
+<section class="section__table">
+    <div class="container">
+        <div class="table">
+            <h3 class="table__title">188+ Country Effected By Corona</h3>
+            <h4 class="table__suptitle"> <img src="img/icon/live3.gif" width="60px" height="35px">&nbsp;Update</h4>
+
+           <div class="table__scroll">
+            <table class="table__container">
+                <thead>
+                <tr>
+                    <td><strong>Country</strong></td>
+                    <td><strong>Cases</strong></td>
+                    <td><strong>Today Cases</strong></td>
+                    <td><strong>Deaths</strong></td>
+                    <td><strong>Today Deaths</strong></td>
+                    <td><strong>Critical</strong></td>
+                    <td><strong>Recovered</strong></td>
+                </tr>
+                </thead>
+                <!--                <div class="country__info">-->
+                <!--                    <div class="country__name">China</div>-->
+                <!--                    <div class="cases">Cases: 80,824 | Today:11 | Active:12,062</div>-->
+                <!--                    <div class="death">Deaths:3,189 | Today:13</div>-->
+                <!--                    <div class="recovered">-->
+                <!--                        Recovered:65,573 | Critical 3,610-->
+                <!--                    </div>-->
+                <!--                </div>-->
+
+
+            </table>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="symptoms">
+    <div class="container">
+        <h3 class="symptoms__title">Symptoms of COVID-19</h3>
+        <div class="symptoms__col-1">
+            <button type="button" class="btn"><a href="https://www.medicalnewstoday.com/articles/73936" target="_blank">Headache</a>
+            </button>
+            <button type="button" class="btn"><a
+                    href="https://www.nhsinform.scot/illnesses-and-conditions/lungs-and-airways/cough" target="_blank">Cough</a>
+            </button>
+            <button type="button" class="btn"><a href="https://www.medicalnewstoday.com/articles/168266"
+                                                 target="_blank">Fever</a></button>
+        </div>
+
+        <div class="symptoms__col-2">
+            <img class="symptoms__img" src="img/Group-4.png">
+
+        </div>
+
+
+        <div class="symptoms__col-1">
+            <button type="button" class="btn"><a href="https://www.healthline.com/health/dyspnea" target="_blank">Dyspnoea</a>
+            </button>
+            <button type="button" class="btn"><a href="https://www.healthline.com/health/muscle-aches" target="_blank">Muscle
+                pain</a></button>
+            <button type="button" class="btn"><a href="https://www.nhs.uk/conditions/chest-pain/" target="_blank">Chest
+                pain</a></button>
+        </div>
+    </div>
+</div>
+
 
 <section class="questions">
     <div class="container">
@@ -110,36 +182,6 @@
     </div>
 </section>
 
-<div class="symptoms">
-    <div class="container">
-        <h3 class="symptoms__title">Symptoms of COVID-19</h3>
-        <div class="symptoms__col-1">
-            <button type="button" class="btn"><a href="https://www.medicalnewstoday.com/articles/73936" target="_blank">Headache</a>
-            </button>
-            <button type="button" class="btn"><a
-                    href="https://www.nhsinform.scot/illnesses-and-conditions/lungs-and-airways/cough" target="_blank">Cough</a>
-            </button>
-            <button type="button" class="btn"><a href="https://www.medicalnewstoday.com/articles/168266"
-                                                 target="_blank">Fever</a></button>
-        </div>
-
-        <div class="symptoms__col-2">
-            <img class="symptoms__img" src="img/Group-4.png">
-
-        </div>
-
-
-        <div class="symptoms__col-1">
-            <button type="button" class="btn"><a href="https://www.healthline.com/health/dyspnea" target="_blank">Dyspnoea</a>
-            </button>
-            <button type="button" class="btn"><a href="https://www.healthline.com/health/muscle-aches" target="_blank">Muscle
-                pain</a></button>
-            <button type="button" class="btn"><a href="https://www.nhs.uk/conditions/chest-pain/" target="_blank">Chest
-                pain</a></button>
-        </div>
-    </div>
-</div>
-
 <div class="are__you">
     <div class="container">
         <h3 class="are__you__title">Are You Effected By Coronavirus ?</h3>
@@ -157,6 +199,7 @@
     </div>
 </div>
 
+<<<<<<< HEAD
 <section class="section__table">
     <div class="container">
         <div class="table">
@@ -179,14 +222,19 @@
         </div>
     </div>
 </section>
+=======
+
+
+
+>>>>>>> b566518291416b4e802851f09348f389b5982480
 
 <footer class="footer__inner">
     <div class="container">
 
         <div class="footer__copyright">
             <div class="footer-title">
-                <a href="https://www.cdc.gov/coronavirus/2019-ncov/about/index.html"
-                   target="_blank">COVID-<span>19</span></a>
+                <a href="#" data-scroll="#intro"
+                 >COVID-<span>19</span></a>
             </div>
 
             <div class="copyright">© 2020 Webserious</div>
@@ -194,5 +242,8 @@
 
     </div>
 </footer>
+
+
+
 </body>
 </html>
