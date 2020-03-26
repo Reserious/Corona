@@ -421,17 +421,8 @@ p {
     color: black;
 }
 
-.table__scroll {
-    overflow: scroll;
-    height: 450px;
-    width: 100%;
-}
-
 .table__container td {
-    background: #ffffff24;
-    border: 1px solid #fff;
     padding: 10px;
-    border-bottom: 1px solid #ccc;
 }
 
 .country__info {
