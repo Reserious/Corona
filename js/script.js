@@ -31,4 +31,6 @@ $(function ($) {
 
         $(items.join( "" )).appendTo( ".table__container" );
     });
+
+    //ssh -i reser.pem ubuntu@ec2-184-72-207-116.compute-1.amazonaws.com 
 });
